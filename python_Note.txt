@@ -1,0 +1,457 @@
+What is python:
+--> it is a  general purpose, dynamic, high-level, and interpreted programming language.
+--> it is a open source
+
+why python:
+--> Easy to use and Learn
+--> Interpreted Language
+--> Object-Oriented Language
+--> Open Source Language
+--> Learn Standard Library
+--> GUI Programming Support
+--> Dynamic Memory Allocation
+--> Wide Range of Libraries and Frameworks
+
+Python used for:
+--> Desktop Applications
+--> Console-based Applications
+--> Mobile Applications
+--> Software Development
+--> Web Applications
+--> Enterprise Applications
+
+
+Ex: in java [print Hello]
+public class hello()
+{
+public static void main(strings[] args)
+{
+System.out.println("Hello")
+}
+
+Ex: in python [print Hello]
+print("hello")
+
+Python Identation:
+--> it means space at the begining of the code.
+--> it is used to identify the block of code.
+--> minimum one space at the initial start of program
+--> we can also default we can provide 4 blank space
+
+python commants:
+--to commants a statement in python we can use #
+--> so if you add # before the statement it won't be executed
+
+python Variable:
+--> it is used to store the value
+--> in python initally we will create variable and assign the value
+ex:
+x=10;
+y="Robert"
+
+python Variable Name:
+--> variable name is short name or more descriptive name
+--> it should start with letter or underscrore
+--> it is case sensitive[age and AGE]
+--> store or define multiple variable and value in a single line
+
+python global variable:
+--. it is used to access the variable from inside or outside the function.
+--> it is created outside the function
+--> anyone can access the variable
+--. to create global variable use keyword " global"
+
+Python Data Types:
+--> it is used to store the different types of variable.
+str: Text type
+
+int , float , complex: Numeric type
+
+list,tuple,range: Sequence type
+
+dict: Mapping type
+
+set,frozenset: Set type
+
+bool: Boolean type
+
+bytes,bytearray,memoryview: Binary type
+
+Getting data type of any variable we can use type()
+ex:
+x=5;
+print(type(x))
+
+Set the data type:
+x="Hello"
+print(type(x))
+
+python numbers:
+there are three type of numbers
+
+1.int [x=1]:
+int or integer whole number positive or negative without decimal
+
+
+2.float [x=2.5]:
+float or floating point number , positive or negative 
+containing one or more decimal values
+
+
+3.complex [5J]:
+--> complex numbers are written in "J" as a imaginary part
+
+Random Number:
+--> it is used to get or print some random number between the given range
+
+string in python:
+--> to define or declere the string we can use " str "
+ex:
+x=str("hello")
+
+String are array:
+x ="hello world"
+print(x[1])
+
+python slicing string:
+--> it is used to get the some specific position to position of the string
+--> we will specifiy the start and end index
+ex:
+a="hello,world"
+print(a[2:6])
+
+string modificationS:
+1.Uppercase:
+--> it is used to convert the string into upper case and print
+
+2.lowerCase:
+--> it is used to convert the string into lower case and print it
+
+3.Remove white space:
+--> it is used to remove the white space before or after the actual text
+
+4.Replace string:
+--> it is used to replace new string into old string
+
+5.Split string
+
+String concatenation:
+--> it is use to cimbine 2 strings.
+
+python Operators:
+--> operators are used to perform some specific operations.
+--> it is also used to make the code more logic
+
+types of operators:
+1.Arithmetic operators:
+--> it is used for mathematical operation
+[Add ,Multi,Sub,Division,Modules,]
+
+2.Assignement operators:
+--> it is used to assign the values and perform the operations.
+[== ,< , > ,etc...]
+
+3.Comparision operators;
+--> it is used to compare two condition or logics
+[== , != , > , < ,>=,<=]
+
+4.Logical operators:
+--> it is used to compare with muliple conditions
+[AND , OR , NOT]
+
+5.Identity operators:
+--> it is not only check whether both are equal but it will also check both are same object or not
+[is : it return true if both the variable have same object]
+[is not: if both the variable object is not same then it will return true]
+
+6.Membership operators:
+--> it will used verify if the sequence is present in the object or not
+[in: Return true if a sequence with the specified value is present]
+[not in: Return true if the sequence with the specified value not present]
+
+7.Bitwise operator
+
+
+Condotional statement:
+--> it is used to used to execute the code according to to given logic.
+--> how the program should be executed
+--> how the program should not executed
+
+1.if: this statement is executed if the given condition is true
+
+2.Elif: This stetament will be executed when the prevoius statement got failed
+
+3.Else: This statement will be exexuted when the the prevoius all condition are not true
+
+Python loops:
+--> loop is used to execute code morethan one iteration
+--> it will stop executing once the code reached the given condition
+
+python has two  primitive loops:
+1. while loop:
+--> while loop can execute a set of conditions as long as condituion is true
+--. it will come out of the loop once it reached the condition
+ex:
+while(condition)
+{
+// block of code
+}
+
+2. for loop
+--> it is a most common iterator in python oops
+--> using for loop we can execute a set of statement once for each item in a list
+
+ex:
+testing =["testing","java","python"]
+for x in testing:
+print(x)
+
+the range():
+--> loop through a set of code a specified no.of time
+--> the range() starting from index 0 by default.
+--> and increment by 1
+
+Python List:
+--> it is used to store multiple items in a single variable.
+--> we will store the items inside a square bracket
+syntax:
+listname=["v1" ," v2", " v3"]
+
+--> list items can be access using array index value starts with 0.
+--> list items can be changeable
+--> list can accept the duplicates.
+
+python collection framework:
+1.List: 
+--> is a collection which is oredered and changeable.
+--> allows duplicates.
+syntax:
+mylist=["values"]
+
+
+2.Tuple:
+--> is a collection which is oredered and unchangeable.
+--> Allows duplicates records.
+syntax:
+mytuple=("values")
+
+
+3.Set:
+--> is a collection which is unordered and unchangable
+--> no duplicates records.
+syntax:
+myset ={"values"}
+
+
+4.Dictinoary:
+--> is a collection which is ordered and ahangeable.
+--> no duplicates records
+--> it is used to store pair value means it will store key & value
+
+python Functions:
+--> a function is a block of code which only run when we call
+--> you can pass a data,known as paramter
+--> a functiona can have return value
+--> to create a function we can use keyword def
+ex:
+def myfunction1():
+ print("welcome to function")
+
+call the function:
+--> just write the name of the function
+myfunction()
+
+python Array:
+--> it is used to store group or more than one values to single variable.
+--> it is a special variable
+--> to create array we will use square bracket []
+
+ex:
+course =["testing","java","selenium"]
+
+Array Methods:
+1.append(): add element at the end of the list
+
+2.clear(): remove all elements from the list
+
+3.copy(): returns a copy of list
+
+4.count(): return the no.of elements with the specified value
+
+5.extend(): one list elements will be addedd to another list
+
+6.index():return the index of the first element with the specified value
+
+7.insert(): add an element at the specified position
+
+8.pop(): remove the element from the specified path
+
+9.remove(): remove the item with the specified value
+
+10.reverse(): reverse the order of the list
+
+11.sort(): it is used to sort the array list
+
+
+python Math():
+--> it is a built-in function
+--> it is used to perform mathematical operations.
+1.min(): it is used to get the minimum values on the given set
+
+2.max(): it is used to get the maximum from the given set
+
+3.abs(): it will return absolute [positive] value
+
+4.pow(x,y): this value return the x power of y
+
+Math module:
+--> it is used to conduct the mathematical calcualtion.
+--> we have to import this class 
+ex: 
+import math
+
+python dates:
+--> it is inbuild function
+--> it is used to print system date & time
+--> to get work with current system date and time we ned to import datetime
+ex:
+import datetime
+x=datetime.datetime.now()
+print(x)
+
+strftime():
+--> it is used to custamized the or format the date , month ,year.
+x=datetime.datetime.now()
+print(x.year)
+print(x.strftime("%A"))
+
+ex:
+%a: weakdays in short
+
+%A: weekdays in full version
+
+%w: weekdays in 0-6
+
+%d: day of moth 0-31
+
+%b: month name in short
+
+%B: month name in full version
+
+%y: year in short
+
+%Y: year in full version
+
+
+python Class:
+--> python is a object-oriented programming language
+--> in python everything is an object with its properties & methods
+-->  a class is a blueprint of object
+
+what is object:
+-->collection of data[ or variable]
+
+what is class:
+--> it's a blue print of object
+
+--> class will be created using " class" keyword
+ex:
+class myclass:
+ x=5
+
+create object:
+--> we can create an object using class name
+ex:
+p1=myclass()
+print(p1.x)
+
+The _init_() Function:
+--> _init_() function will always executed when the class being initiated
+--> it is used to assgin the value to the object
+--> instead of declaring variable in class level
+--> we are declering inside the function called init()
+--> self parameter  is a reference to the current instance of the class.
+--> it is used to access the variable to belongs to the class
+
+python Inheritance:
+--> it is used for code reusability
+--> we can use one class property & value to another class
+Parent class:
+--> the class being inherited, also called base class
+
+chile class
+--> the class inherits from another class , also called derived class
+
+how to create parent class:
+--> simply we can create using class keyword
+
+How to create child class:
+--> create child class which will inherits from parent class
+
+python File Handling:
+--> it is used to handle the file operations.
+1.Read File
+2.Write File
+3.Create File
+4.Delete File
+--> using file handling we can create , update , delete files.
+--> the key function for working with file is open()
+--> the open() takes 2 parameter[filename,mode]
+
+types of file modes:
+
+"r" : Read: it is used to read a file if the file doesn't exist it will throw error
+
+"a" : Append: open a file for appending 
+
+"w": Write: open the file for writting
+
+"x": Create: it is used to create new file
+
+"t" : it represnt text file type
+"b": binary type file [ex:image]
+
+syntax: to open file
+f =open("filename.txt")
+
+or
+f =open("filename.txt","rt")
+
+
+python Exception Handling:
+--> run time exception handled by python
+--> how python is going to handle the run time exception
+
+Exception Handling methods:
+
+try: this block is used to test the condition
+
+except: this block is used to handle the error
+
+else: This block executes when there is no error
+
+finally: this block will be executed depend the result of try and except
+
+
+python RegEx:
+--> Regular Expression is used to search .
+--> it is called search pattern
+--> it is used to replace the dynamic text using regex.
+--> to implement reg Ex we need to import re
+
+Types of Metacharacters:
+. ---> [ any charcter]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
